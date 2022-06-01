@@ -9,7 +9,7 @@ services:
     environment:
       - xpack.security.enabled=true
       - bootstrap.memory_lock=false
-      - ELASTIC_PASSWORD=password
+      - ELASTIC_PASSWORD=Itshardtoguess769
       - discovery.type=single-node
       # Multi node setup
       # - node.name=es-01
